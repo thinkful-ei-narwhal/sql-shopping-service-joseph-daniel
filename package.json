@@ -1,12 +1,12 @@
 {
-  "name": "sql-shopping-drills-ren-daniel",
+  "name": "sql-shopping-service-joseph-daniel",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "shopping.js",
   "scripts": {
     "test": "nyc mocha --require test/setup.js",
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
+    "dev": "nodemon src/shopping.js",
+    "start": "node src/shopping.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
   },
